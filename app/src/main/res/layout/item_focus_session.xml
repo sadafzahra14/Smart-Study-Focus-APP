@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="6dp"
+    android:layout_marginVertical="6dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical">
+
+        <!-- Status Dot / Color Accent Indicator -->
+        <View
+            android:id="@+id/indicatorStatus"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:background="@drawable/bg_button_control"
+            android:backgroundTint="@color/success" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="16dp"
+            android:orientation="vertical">
+
+            <!-- Date -->
+            <TextView
+                android:id="@+id/tvItemDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="July 8, 2026"
+                android:textColor="@color/text_primary"
+                android:textSize="16sp" />
+
+            <!-- Sub stats like Time and Duration -->
+            <TextView
+                android:id="@+id/tvItemTimeDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="sans-serif"
+                android:text="09:30 AM - 10:20 AM (50 mins)"
+                android:textColor="@color/text_secondary"
+                android:textSize="13sp" />
+
+            <!-- Distractions count -->
+            <TextView
+                android:id="@+id/tvItemDistractions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:fontFamily="sans-serif"
+                android:text="Distractions: 2 | Apps: Instagram, YouTube"
+                android:textColor="@color/error"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <!-- Focus Percentage Badge -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginStart="8dp">
+
+            <TextView
+                android:id="@+id/tvItemFocusPercent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="92%"
+                android:textColor="@color/primaryColor"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvItemStatusLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="COMPLETED"
+                android:textColor="@color/success"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

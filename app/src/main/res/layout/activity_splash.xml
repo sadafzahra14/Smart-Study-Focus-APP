@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    tools:context=".SplashActivity">
+
+    <!-- Ambient Decorative Glows for Visual Depth -->
+    <View
+        android:id="@+id/ambientGlow1"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:background="@drawable/bg_ambient_glow"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:translationX="-120dp"
+        android:translationY="-120dp" />
+
+    <View
+        android:id="@+id/ambientGlow2"
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:background="@drawable/bg_ambient_glow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:translationX="100dp"
+        android:translationY="100dp" />
+
+    <!-- Center layout with a clean fade-in container -->
+    <LinearLayout
+        android:id="@+id/splashContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Center: Large white book icon -->
+        <ImageView
+            android:id="@+id/imgSplashBook"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_book"
+            app:tint="@color/white" />
+
+        <!-- Below icon: Smart Study Focus -->
+        <TextView
+            android:id="@+id/txtSplashTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Smart Study Focus"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.02" />
+
+        <!-- Subtitle: Study Smarter. Stay Focused. -->
+        <TextView
+            android:id="@+id/txtSplashSubtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Study Smarter. Stay Focused."
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:alpha="0.9" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

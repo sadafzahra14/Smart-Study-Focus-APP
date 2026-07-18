@@ -1,0 +1,6 @@
+{
+  "name": "Smart Study Focus",
+  "description": "Smart Study Focus is an offline-first productivity and study session manager designed to help students track focused study blocks and simulate/monitor distractions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

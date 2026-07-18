@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Smart Study Focus</string>
+
+    <!-- Navigation Strings -->
+    <string name="title_home">Home</string>
+    <string name="title_focus">Focus</string>
+    <string name="title_analytics">Analytics</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_history">History</string>
+    <string name="title_distraction_report">Distraction Report</string>
+
+    <!-- Splash/Login/Register -->
+    <string name="stay_focused_smarter">Stay Focused.\nStudy Smarter.</string>
+    <string name="onboarding_subtitle">Set a timer, beat distractions, and track every time an app tries to steal your focus.</string>
+    <string name="lets_start">Let\'s Start</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="sign_in_to_continue">Sign in to continue your focus journey</string>
+    <string name="email_hint">Email Address</string>
+    <string name="password_hint">Password</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="full_name_hint">Full Name</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_register">Register</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="dont_have_account">Don\'t have an account? Register</string>
+    <string name="already_have_account">Already have an account? Login</string>
+    <string name="create_account">Create Account</string>
+
+    <!-- Home/Dashboard -->
+    <string name="quick_statistics">Quick Statistics</string>
+    <string name="start_focus">Start Focus</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="focus_hours">Focus Hours</string>
+    <string name="completed_sessions">Completed</string>
+    <string name="distractions_blocked">Distractions</string>
+    <string name="weekly_goal">Weekly Goal</string>
+    <string name="recent_sessions">Recent Sessions</string>
+    <string name="pomodoro_timer">Pomodoro Timer</string>
+    <string name="distraction_alerts">Distraction Alerts</string>
+    <string name="focus_report">Focus Report</string>
+
+    <!-- Focus Session Screen -->
+    <string name="ready_to_focus">Ready to focus</string>
+    <string name="focus_session">Focus Session</string>
+    <string name="minutes_suffix">minutes</string>
+    <string name="app_detection">App Detection</string>
+    <string name="tap_to_simulate">Tap any app icon to simulate a distraction event.</string>
+    <string name="instagram">Instagram</string>
+    <string name="facebook">Facebook</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="youtube">YouTube</string>
+    <string name="tiktok">TikTok</string>
+    <string name="focus_paused">Focus Paused</string>
+    <string name="focus_completed">Focus Completed!</string>
+
+    <!-- Distraction Report -->
+    <string name="session_report">Session Report</string>
+    <string name="focus_percentage">Focus Percentage</string>
+    <string name="total_distractions">Total Distractions</string>
+    <string name="most_distracting_app">Most Distracting App</string>
+    <string name="focus_quality">Focus Quality</string>
+    <string name="suggestions">Suggestions</string>
+    <string name="suggestion_good">Excellent job! Keep up the great work and maintain this environment.</string>
+    <string name="suggestion_moderate">Good effort, but try keeping your phone away or closing background apps.</string>
+    <string name="suggestion_low">High distraction level. Try turning on Do Not Disturb mode next time.</string>
+    <string name="back_to_dashboard">Back to Dashboard</string>
+
+    <!-- Analytics -->
+    <string name="weekly_report">Weekly Report</string>
+    <string name="monthly_report">Monthly Report</string>
+    <string name="focus_distribution">Focus Distribution</string>
+    <string name="session_history">Session History</string>
+
+    <!-- Profile -->
+    <string name="edit_profile">Edit Profile</string>
+    <string name="logout">Logout</string>
+    <string name="streak">Focus Streak</string>
+    <string name="days_focused">%1$d Days</string>
+    <string name="save_profile">Save Profile</string>
+
+    <!-- Settings -->
+    <string name="notifications">Notifications</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="reminder_settings">Reminder Settings</string>
+    <string name="reminder_time">Daily Reminder Time</string>
+</resources>

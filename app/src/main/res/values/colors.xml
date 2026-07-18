@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Core Brand Colors -->
+    <color name="primaryColor">#FF5722</color>
+    <color name="primaryLightColor">#FF8A50</color>
+    <color name="primaryDarkColor">#C41C00</color>
+    <color name="secondaryColor">#FFC107</color>
+    <color name="secondaryLightColor">#FFE082</color>
+    <color name="secondaryDarkColor">#C79100</color>
+
+    <!-- Custom Focus Session Gradients -->
+    <color name="gradient_orange_start">#FF7E40</color>
+    <color name="gradient_red_end">#FF3D40</color>
+
+    <!-- App Detection Card and Buttons -->
+    <color name="distraction_card_bg">#B22E2B</color>
+    <color name="control_btn_bg">#FF6353</color>
+    <color name="control_btn_text">#FFFFFF</color>
+
+    <!-- UI Backgrounds and Neutrals -->
+    <color name="background">#FAFAFA</color>
+    <color name="card_bg">#FFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_semi_transparent">#B3FFFFFF</color>
+    <color name="white_transparent_30">#4DFFFFFF</color>
+    <color name="white_transparent_10">#1AFFFFFF</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_hint">#BDBDBD</color>
+    <color name="text_white">#FFFFFF</color>
+
+    <!-- Alerts and Status -->
+    <color name="error">#D32F2F</color>
+    <color name="success">#388E3C</color>
+    <color name="warning">#FBC02D</color>
+</resources>

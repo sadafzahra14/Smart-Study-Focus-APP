@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="24dp"
+    android:background="@drawable/bg_dialog_premium"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="28dp">
+
+    <!-- Celebration/Success Icon Badge -->
+    <ImageView
+        android:id="@+id/ivCompletionIcon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="Completion success icon"
+        android:src="@drawable/ic_lightbulb"
+        app:tint="#FFC107" />
+
+    <!-- Headline Title -->
+    <TextView
+        android:id="@+id/tvCompletionTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Session Completed"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <!-- Success Message -->
+    <TextView
+        android:id="@+id/tvCompletionMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:lineSpacingMultiplier="1.25"
+        android:text="Excellent work!\nYou stayed focused."
+        android:textColor="#B3FFFFFF"
+        android:textSize="15sp" />
+
+    <!-- Spacer -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="24dp" />
+
+    <!-- Interactive Options -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- View Report Button (Primary) -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnViewReport"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="@drawable/bg_button_gradient_pill"
+            android:backgroundTint="@null"
+            app:backgroundTint="@null"
+            android:fontFamily="sans-serif-medium"
+            android:text="View Report"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- Start Another Session Button (Secondary) -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnStartAnother"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/bg_button_secondary_pill"
+            android:backgroundTint="@null"
+            app:backgroundTint="@null"
+            android:fontFamily="sans-serif-medium"
+            android:text="Start Another"
+            android:textAllCaps="false"
+            android:textColor="#99FFFFFF"
+            android:textSize="15sp" />
+    </LinearLayout>
+</LinearLayout>

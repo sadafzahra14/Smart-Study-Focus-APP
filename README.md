@@ -1,21 +1,43 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+Smart-Study-Focus-APP
+📚 Smart StudyFocus
+An AI-assisted Android application designed to help students stay focused during study sessions by reducing distractions, tracking focus time, and providing study analytics. The application encourages productive study habits using a Pomodoro-based timer and distraction monitoring.
 
-# Run and deploy your AI Studio app
+📱 Features
+⏱️ Pomodoro Focus Timer
 
-This contains everything you need to run your app locally.
+30 Minutes
+60 Minutes
+3 Hours
+📊 Study Analytics
 
-View your app in AI Studio: https://ai.studio/apps/4c619209-92c8-4e5d-89fc-d2681e658743
+Track completed focus sessions
+Daily and weekly study reports
+Visual charts for productivity
+🚫 Distraction Monitoring
 
-## Run Locally
+Detects selected distracting apps
+Displays a reminder notification when distraction apps are opened during an active focus session
+Helps users return to studying
+🔐 User Authentication
 
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
+Login Screen
+Registration Screen
+Secure user access
+Smart StudyFocus is an Android application developed to help students improve their concentration, manage study time effectively, and reduce digital distractions during study sessions. The application features a Pomodoro-based focus timer with customizable study durations, distraction monitoring, productivity analytics, and a modern user-friendly interface. During an active study session, the app monitors selected distracting applications and encourages users to return to their studies through reminder notifications. It also records study sessions, tracks productivity, and presents detailed analytics to help users understand and improve their study habits over time. Built using Java, XML, Android Studio, SQLite, Material Design Components, and Android Usage Stats API, Smart StudyFocus provides an efficient and practical solution for students who want to develop better time management and maintain consistent focus. The project also lays the foundation for future AI-powered features such as personalized study recommendations, intelligent productivity analysis, and smart learning assistance, making it a scalable solution for modern educational needs.
 
+📄 License
+This project is developed for educational and learning purposes.
 
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
+Feel free to fork, learn from, and improve the project.
+
+⭐ Support
+If you found this project useful, please consider giving it a ⭐ on GitHub.
+
+It motivates future development and improvements.
+
+Thank You ❤️
+Stay Focused. Keep Learning. Achieve Your Goals.
+
+🔍 Search Feature
+Search study-related topics
+Recent search history
